@@ -4,7 +4,7 @@ def my_collect array
   if array.size == 0
     return array
   elsif array.each do |value|
-    holder << yield(value)
+    holder << unshift(value)
   end
 holder
  end
