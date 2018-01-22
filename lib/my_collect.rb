@@ -3,11 +3,9 @@ def my_collect array
   holder = []
   if array.size == 0
     return array
-  elsif array.size > 0
-        counter = 0
-  while counter < array.size
-        array.unshift = holder
+  elsif array.each do |value|
+    holder << yield(value)
   end
-    return holder.upcase
-  end
+holder
+ end
 end
