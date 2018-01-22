@@ -7,7 +7,7 @@ def my_collect array
         ounter = 0
   while counter < array.size
         array.unshift = holder
-end
-          return holder.upcase
-        end
+  end
+    return holder.upcase
+  end
 end
