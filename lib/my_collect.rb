@@ -6,6 +6,6 @@ def my_collect array
   elsif array.each do |value|
     holder << yield(value)
   end
-holder
+  puts holder.upcase
  end
 end
