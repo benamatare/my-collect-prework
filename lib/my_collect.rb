@@ -9,4 +9,5 @@ def my_collect array
                     array.upcase = holder
                   end
           return holder
+        end
 end
