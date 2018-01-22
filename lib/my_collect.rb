@@ -4,7 +4,7 @@ def my_collect array
   if array.size == 0
     return array
   elsif array.size > 0
-        ounter = 0
+        counter = 0
   while counter < array.size
         array.unshift = holder
   end
