@@ -1,3 +1,5 @@
 
-def my_collect argument
+def my_collect array
+  array.collect {|value| value.upcase}
+  
 end
