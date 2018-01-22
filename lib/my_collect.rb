@@ -1,5 +1,5 @@
 
 def my_collect array
-  array.collect {|value| value.upcase}
+  array.collect {|value| puts value.upcase}
   
 end
